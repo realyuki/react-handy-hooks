@@ -1,0 +1,41 @@
+{
+  "name": "react-handy-hooks",
+  "version": "1.0.0",
+  "description": "A collection of handy and reusable React hooks for common development tasks.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "knip": "knip"
+  },
+  "keywords": [
+    "react",
+    "handy",
+    "hooks"
+  ],
+  "author": {
+    "name": "realyuki",
+    "email": "realyuki2@naver.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/realyuki/react-handy-hooks.git"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.5.0",
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "knip": "^5.30.2",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  }
+}
